@@ -4,14 +4,18 @@
   color: white;
 }
 
-.App__Aside {
-  width: 50%;
-  background-color: #66DAC7;
+.App__Aside {        /*to add image ,left side of page*/
+  width: 60%;
+  background-color: #000000;
+  background-image: url("image1.png ");
+  background-repeat: no-repeat;
+  background-position:center;
+
 }
 
 .App__Form {
-  width: 50%;
-  background-color: #2E4158;
+  width: 40%;
+  background-color: #CA2F2F;       /*BA1616B71616*/    /*DB0A0A*/
   padding: 25px 40px;
   overflow: auto;
 }
@@ -19,23 +23,23 @@
 .PageSwitcher {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .PageSwitcher__Item {
-  background-color: #4C5D72;
-  color: #9DA6B1;
+  background-color: #F87575;
+  color: #000000;					/* #9DA6B1   4C5D72*/
   padding: 10px 25px;
   cursor: pointer;
   font-size: .9em;
-  border: none;
+  border: ;
   outline: none;
   display: inline-block;
   text-decoration: none;
 }
 
-.PageSwitcher__Item--Active {
-  background-color: #5ED0C0;
+.PageSwitcher__Item--Active {			/* 5ED0C0*/
+  background-color: #000000;
   color: white;
 }
 
@@ -53,13 +57,13 @@
 }
 
 .FormTitle {
-  color: #707C8B;
+  color: #000000;					/*707C8B*/
   font-weight: 300;
   margin-bottom: 50px;
 }
 
 .FormTitle__Link {
-  color: #707C8B;
+  color: #000000;				/*707C8B*/
   text-decoration: none;
   display: inline-block;
   font-size: 1.7em;
@@ -72,7 +76,7 @@
 }
 
 .FormTitle__Link--Active {
-  color: white;
+  color: black;
   border-bottom: 1px solid #199087;
 }
 
@@ -90,7 +94,7 @@
   width: 85%;
   background-color: transparent;
   border: none;
-  color: white;
+  color: black;
   outline: none;
   border-bottom: 1px solid #445366;
   font-size: 1em;
@@ -99,12 +103,12 @@
   margin-top: 10px;
 }
 
-.FormField__Input::placeholder {
-  color: #616E7F;
+.FormField__Input::placeholder {		/*616E7F*/
+  color: #000000;
 }
 
-.FormField__Button {
-  background-color: #52C4B9;
+.FormField__Button {				/*52C4B9*/
+  background-color: #000000;
   color: white;
   border: none;
   outline: none;
@@ -114,8 +118,8 @@
   font-weight: 500;
 }
 
-.FormField__Link {
-  color: #66707D;
+.FormField__Link {				/*66707D*/
+  color: #000000;
   text-decoration: none;
   display: inline-block;
   border-bottom: 1.5px solid #225E62;
@@ -123,7 +127,7 @@
 }
 
 .FormField__CheckboxLabel {
-  color: #646F7D;
+  color: white;
   font-size: .9em;
 }
 
